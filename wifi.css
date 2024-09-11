@@ -1,0 +1,70 @@
+/* Resetting box-sizing and base styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; /* Adjusted font size for a better look */
+}
+
+/* Body styling */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #004d99, #00c6ff); /* Gradient background */
+}
+
+/* Container styling */
+.container {
+    width: 500px;
+    padding: 40px; /* Increased padding */
+    border: 1px solid #ddd; /* Lighter border color */
+    border-radius: 15px; /* More rounded corners */
+    background-color: #ffffff; /* White background for better contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Centered text */
+}
+
+/* Heading styling */
+h4 {
+    margin-bottom: 20px; /* Increased margin for more space */
+    font-size: 28px; /* Larger font size */
+    color: #333; /* Darker text color for contrast */
+}
+
+/* Input and textarea styling */
+input,
+textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for comfort */
+    margin-bottom: 15px; /* Increased margin for spacing */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Consistent font size */
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #00c6ff; /* Focus border color */
+    outline: none; /* Remove default outline */
+}
+
+/* Submit button styling */
+#submit {
+    border: none;
+    background-color: #ff6f61; /* Coral color */
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#submit:hover {
+    background-color: #ff3b30; /* Darker shade on hover */
+}
